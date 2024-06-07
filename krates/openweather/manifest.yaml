@@ -1,0 +1,12 @@
+summary: Display the current weather
+desc: Displays current weather at a specific zip code using OpenWeather API
+author: Bob Banks
+configs:
+  - name: Zip Code
+    type: freetext
+    default_text: 
+    dropdown: 
+  - name: OpenWeather API Key
+    type: freetext
+    default_text: 
+    dropdown:
